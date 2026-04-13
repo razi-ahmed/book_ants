@@ -1,0 +1,10 @@
+{
+  "id": "ghost-writer",
+  "name": "Ghost Writer",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "An Obsidian plugin that uses Ollama to rewrite ideas creatively and build a story from left-panel input.",
+  "author": "Generated",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

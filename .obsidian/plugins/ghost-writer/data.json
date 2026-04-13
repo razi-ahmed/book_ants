@@ -1,0 +1,9 @@
+{
+  "ollamaUrl": "http://localhost:11434",
+  "model": "llama3.2:3b",
+  "systemPrompt": "You are a ghost writer. The user is dictating their idea in the left panel. Rewrite the central idea creatively and build a story around it with vivid detail, rich emotion, and narrative momentum. Output only the story text, no explanation.",
+  "temperature": 0.8,
+  "maxTokens": 400,
+  "autoGenerate": true,
+  "debounceMs": 800
+}

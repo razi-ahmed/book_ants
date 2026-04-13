@@ -1,0 +1,10 @@
+{
+  "id": "ollama-global-model",
+  "name": "Ollama Global Model",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Obsidian plugin for Ollama with a global model setting for all commands",
+  "author": "Generated",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

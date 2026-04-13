@@ -1,0 +1,88 @@
+{
+  "ollamaUrl": "http://localhost:11434",
+  "globalModel": "llama3.2:3b",
+  "storyModeEnabled": true,
+  "storyModePrompt": "You are a storyteller in the tradition of George R.R. Martin and J.R.R. Tolkien. Your prose is rich, evocative, and measured. You favour a third-person limited point of view, with deep attention to sensory details, inner conflict, and the weight of history. Dialogue is sharp and reveals character. You avoid modern slang and anachronisms. When you describe a scene, you linger on the light, the cold, the smell of rain on stone, the creak of leather, the unspoken tension between two people. Your tone is epic but intimate, intriguing and slightly somber. You never rush. You build atmosphere.",
+  "systemPrompt": "",
+  "commands": [
+    {
+      "name": "Summarize selection",
+      "prompt": "Act as a writer. Summarize the text in a view sentences highlighting the key takeaways. Output only the text and nothing else, do not chat, no preamble, get to the point."
+    },
+    {
+      "name": "Explain selection",
+      "prompt": "Act as a writer. Explain the text in simple and concise terms keeping the same meaning. Output only the text and nothing else, do not chat, no preamble, get to the point."
+    },
+    {
+      "name": "Expand selection",
+      "prompt": "Act as a writer. Expand the text by adding more details while keeping the same meaning. Output only the text and nothing else, do not chat, no preamble, get to the point."
+    },
+    {
+      "name": "Continue the story",
+      "prompt": "You are a fiction writer. Continue the story from the provided text. Write the next part seamlessly. Output only the continuation and nothing else, do not chat, no preamble."
+    },
+    {
+      "name": "Generate character description",
+      "prompt": "You are a fiction writer. Based on the text, generate a detailed description of a character mentioned. Output only the description and nothing else."
+    },
+    {
+      "name": "Rewrite selection (formal)",
+      "prompt": "Act as a writer. Rewrite the text in a more formal style while keeping the same meaning. Output only the text and nothing else, do not chat, no preamble, get to the point."
+    },
+    {
+      "name": "Rewrite selection (casual)",
+      "prompt": "Act as a writer. Rewrite the text in a more casual style while keeping the same meaning. Output only the text and nothing else, do not chat, no preamble, get to the point."
+    },
+    {
+      "name": "Rewrite selection (active voice)",
+      "prompt": "Act as a writer. Rewrite the text in with an active voice while keeping the same meaning. Output only the text and nothing else, do not chat, no preamble, get to the point."
+    },
+    {
+      "name": "Rewrite selection (bullet points)",
+      "prompt": "Act as a writer. Rewrite the text into bullet points while keeping the same meaning. Output only the text and nothing else, do not chat, no preamble, get to the point."
+    },
+    {
+      "name": "Caption selection",
+      "prompt": "Act as a writer. Create only one single heading for the whole text that is giving a good understanding of what the reader can expect. Output only the caption and nothing else, do not chat, no preamble, get to the point. Your format should be ## Caption."
+    },
+    {
+      "name": "Rewrite the selection",
+      "prompt": "Act as a writer. Rewrite the text while preserving the meaning, clarity, and style. Output only the rewritten text and nothing else, do not chat, no preamble."
+    },
+    {
+      "name": "Summarize left panel",
+      "prompt": "Act as a writer. Summarize the text in a view sentences highlighting the key takeaways. Output only the text and nothing else, do not chat, no preamble, get to the point.",
+      "paneMode": "left-right"
+    },
+    {
+      "name": "Explain left panel",
+      "prompt": "Act as a writer. Explain the text in simple and concise terms keeping the same meaning. Output only the text and nothing else, do not chat, no preamble, get to the point.",
+      "paneMode": "left-right"
+    },
+    {
+      "name": "Expand left panel",
+      "prompt": "Act as a writer. Expand the text by adding more details while keeping the same meaning. Output only the text and nothing else, do not chat, no preamble, get to the point.",
+      "paneMode": "left-right"
+    },
+    {
+      "name": "Rewrite left panel",
+      "prompt": "Act as a writer. Rewrite the text while preserving the meaning, clarity, and style. Output only the rewritten text and nothing else, do not chat, no preamble.",
+      "paneMode": "left-right"
+    },
+    {
+      "name": "Continue the story from left panel",
+      "prompt": "You are a fiction writer. Continue the story from the provided text. Write the next part seamlessly. Output only the continuation and nothing else, do not chat, no preamble.",
+      "paneMode": "left-right"
+    },
+    {
+      "name": "Generate character description from left panel",
+      "prompt": "You are a fiction writer. Based on the text, generate a detailed description of a character mentioned. Output only the description and nothing else.",
+      "paneMode": "left-right"
+    },
+    {
+      "name": "Rewrite left panel (casual)",
+      "prompt": "Act as a writer. Rewrite the text in a more casual style while keeping the same meaning. Output only the text and nothing else, do not chat, no preamble, get to the point.",
+      "paneMode": "left-right"
+    }
+  ]
+}
